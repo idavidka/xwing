@@ -21,8 +21,8 @@ exportObj.hugeOnly = (ship) ->
 # modules.
 exportObj.basicCardData = ->
     ships:
-        "CR-12":
-            name: "CR-12 Corvette"
+        "CR12 Corvette":
+            name: "CR12 Corvette"
             factions: [ "Rebel Alliance", ]
             energy: 4
             attack: 0
