@@ -8426,16 +8426,6 @@ exportObj.basicCardData = ->
             unique: true
             points: 6
             ship: "CR12 Corvette"
-            confersAddons: [
-                {
-                    type: exportObj.Upgrade
-                    slot: "Crew"
-                }
-                {
-                    type: exportObj.Upgrade
-                    slot: "Team"
-                }
-            ]
         }
     ]
 
