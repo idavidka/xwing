@@ -5396,6 +5396,16 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
         }
+        {
+            name: "Captain Oquoné"
+            faction: "Rebel Alliance"
+            id: 301
+            unique: true
+            ship: "CR12 Corvette"
+            skill: 0
+            points: 6
+            slots: []
+        }
     ]
 
     upgradesById: [
