@@ -171,7 +171,9 @@ exportObj.cardLoaders.English = () ->
     exportObj.ships = basic_cards.ships
 
     # Names don't need updating, but text needs to be set
-    pilot_translations =
+    pilot_translations =    
+        "Captain Oquoné":
+            text: """%HUGESHIPONLY%%REBELONLY%%LINEBREAK%When overlapping an enemy huge ship, the enemy ship suffers 2 faceup damage cards instead of one."""
         "Wedge Antilles":
             text: """When attacking, reduce the defender's agility value by 1 (to a minimum of "0")."""
         "Garven Dreis":
