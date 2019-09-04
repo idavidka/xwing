@@ -21,6 +21,27 @@ exportObj.hugeOnly = (ship) ->
 # modules.
 exportObj.basicCardData = ->
     ships:
+        "CR12 Corvette":
+            name: "CR12 Corvette"
+            factions: [ "Rebel Alliance", ]
+            energy: 4
+            attack: 0
+            agility: 4
+            hull: 12
+            shields: 3
+            huge: true
+            actions: [
+                "Recover"
+                "Reinforce"
+                "Target Lock"
+            ]
+            maneuvers: [
+              [ 0, 0, 0, 0, 0, 0]
+              [ 0, 2, 2, 2, 0, 0]
+              [ 0, 2, 2, 2, 0, 0]
+              [ 0, 0, 2, 0, 0, 0]
+              [ 0, 0, 2, 0, 0, 0]
+            ]
         "X-Wing":
             name: "X-Wing"
             factions: [ "Rebel Alliance", ]
@@ -5358,6 +5379,33 @@ exportObj.basicCardData = ->
             ]
             points: 22
         }
+        {
+            name: "CR12 Corvette"
+            faction: "Rebel Alliance"
+            id: 300
+            epic: true
+            ship: "CR12 Corvette"
+            skill: 4
+            points: 35
+            slots: [
+                "Crew"
+                "Team"
+                "Hardpoint"
+                "Hardpoint"
+                "Turret"
+                "Cargo"
+            ]
+        }
+        {
+            name: "Captain Oquoné"
+            faction: "Rebel Alliance"
+            id: 301
+            unique: true
+            ship: "CR12 Corvette"
+            skill: 0
+            points: 6
+            slots: []
+        }
     ]
 
     upgradesById: [
@@ -8381,6 +8429,13 @@ exportObj.basicCardData = ->
             modifier_func: (stats) ->
                 for idx in [1..3]
                     stats.maneuvers[3][idx] = 1 unless idx == 2
+        }
+        {
+            name: "Lightmaker"
+            id: 64
+            unique: true
+            points: 6
+            ship: "CR12 Corvette"
         }
     ]
 

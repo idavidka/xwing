@@ -171,7 +171,9 @@ exportObj.cardLoaders.English = () ->
     exportObj.ships = basic_cards.ships
 
     # Names don't need updating, but text needs to be set
-    pilot_translations =
+    pilot_translations =    
+        "Captain Oquoné":
+            text: """%HUGESHIPONLY%%REBELONLY%%LINEBREAK%When overlapping an enemy huge ship, the enemy ship suffers 2 faceup damage cards instead of one."""
         "Wedge Antilles":
             text: """When attacking, reduce the defender's agility value by 1 (to a minimum of "0")."""
         "Garven Dreis":
@@ -1233,6 +1235,8 @@ exportObj.cardLoaders.English = () ->
             text: """<span class="card-restriction">TIE Advanced only.</span>%LINEBREAK%Your upgrade bar gains the %SYSTEM% upgrade icon.%LINEBREAK%If you equip a %SYSTEM% upgrade, its squad point cost is reduced by 4 (to a minimum of 0)."""
         "Hound's Tooth":
             text: """<span class="card-restriction">YV-666 only.</span>%LINEBREAK%After you are destroyed, before you are removed from the play area, you may <strong>deploy</strong> the <em>Nashtah Pup</em> ship.%LINEBREAK%It cannot attack this round."""
+        "Lightmaker":
+            text: """<span class="card-restriction">CR12 only.</span>%LINEBREAK%When you overlap an enemy huge ship. that ship is physically moved (%STRAIGHT% 1) in the direction of the attack. All resulting overlaps and out of bounds are resolved as normal."""
         "Ghost":
             text: """<span class="card-restriction">VCX-100 only.</span>%LINEBREAK%Equip the <em>Phantom</em> title card to a friendly Attack Shuttle and dock it to this ship.%LINEBREAK%After you execute a maneuver, you may deploy it from your rear guides."""
         "Phantom":
