@@ -5383,7 +5383,6 @@ exportObj.basicCardData = ->
             name: "CR12 Corvette"
             faction: "Rebel Alliance"
             id: 300
-            epic: true
             ship: "CR12 Corvette"
             skill: 4
             points: 35
