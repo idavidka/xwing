@@ -1,7 +1,7 @@
 {
   "name": "yasb",
   "description": "Squad builder for Fantasy Flight Games' X-Wing Miniatures Game",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Geordan Rosario <geordan@gmail.com>",
   "license": "MIT",
   "main": "app/index.html",
